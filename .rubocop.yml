@@ -1,0 +1,18 @@
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+    - "bin/**/*"
+    - "db/migrate/**/*"
+    - "db/schema.rb"
+    - "node_modules/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+
+Metrics/LineLength:
+  Max: 100
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
