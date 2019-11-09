@@ -1,0 +1,11 @@
+AllCops:
+  Exclude:
+    - "bin/**/*"
+    - "db/migrate/**/*"
+    - "db/schema.rb"
+    - "node_modules/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
