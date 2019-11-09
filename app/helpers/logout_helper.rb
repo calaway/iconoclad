@@ -1,7 +1,7 @@
 module LogoutHelper
   def logout_url
     domain = 'iconoclad.auth0.com'
-    client_id = Rails.application.secrets.auth0_client_id
+    client_id = ENV.fetch('AUTH0_CLIENT_ID')
     request_params = {
       returnTo: root_url,
       client_id: client_id
