@@ -1,6 +1,5 @@
 class MyaccountController < ApplicationController
   include Secured
 
-  def show
-  end
+  def show; end
 end
